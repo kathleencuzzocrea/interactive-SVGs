@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 145.79 212.19">
+  <g id="raspberry">
+    <path id="raspb-stem" d="M35.79,63.18c-6.3-9.51-18.8-14.44-29.9-11.79.91-3.36,4.99-4.53,8.44-4.99,14.61-1.93,29.58-1.04,43.86,2.6,2.89-16.39-1.54-33.94-11.86-47,18.34,4.84,29.08,23.81,34.73,41.91,10.56-12.71,29.55-13.18,46.07-12.6-17.59-.24-33.7,15.93-33.4,33.52" style="fill: #00a651; stroke: #00662f; stroke-linejoin: round; stroke-width: 4px;"/>
+    <g id="raspberry-2" data-name="raspberry">
+      <circle id="bottom-berry" cx="74.14" cy="180.04" r="30.15" style="fill: #da1c5c; stroke: #8f0139; stroke-miterlimit: 10; stroke-width: 4px;"/>
+      <circle id="low-right-berry" cx="106.2" cy="162.48" r="30.15" style="fill: #da1c5c; stroke: #8f0139; stroke-miterlimit: 10; stroke-width: 4px;"/>
+      <circle id="low-left-berry" cx="43.98" cy="162.48" r="30.15" style="fill: #da1c5c; stroke: #8f0139; stroke-miterlimit: 10; stroke-width: 4px;"/>
+      <circle id="mid-left-berry" cx="32.15" cy="119.74" r="30.15" style="fill: #da1c5c; stroke: #8f0139; stroke-miterlimit: 10; stroke-width: 4px;"/>
+      <circle id="mid-right-berry" cx="113.64" cy="119.74" r="30.15" style="fill: #da1c5c; stroke: #8f0139; stroke-miterlimit: 10; stroke-width: 4px;"/>
+      <circle id="middle-berry" cx="74.14" cy="137.13" r="30.15" style="fill: #da1c5c; stroke: #8f0139; stroke-miterlimit: 10; stroke-width: 4px;"/>
+      <circle id="top-right-berry" cx="92.46" cy="89.58" r="30.15" style="fill: #da1c5c; stroke: #8f0139; stroke-miterlimit: 10; stroke-width: 4px;"/>
+      <circle id="top-left-berry" cx="53.33" cy="89.58" r="30.15" style="fill: #da1c5c; stroke: #8f0139; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    </g>
+  </g>
+</svg>
