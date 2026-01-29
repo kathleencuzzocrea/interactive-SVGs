@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 198.23 201.14">
+  <g id="banana">
+    <g>
+      <g id="banana-main">
+        <path d="M190.67,8.07c-1.99-7.77-13.32-6.82-13.88,1.18-.96,13.9-3.63,28.11-8.16,42.28-24.64,77.05-94.89,123.37-156.92,103.46-.1-.03-.2-.06-.3-.1-7.06-2.29-12.51,6.39-7.27,11.66,20.26,20.37,46.06,32.58,74.15,32.58,65.13,0,117.94-65.58,117.94-146.49,0-15.54-1.95-30.52-5.56-44.58Z" style="fill: #f9ed32; stroke: #d6ce2e; stroke-linejoin: round; stroke-width: 4px;"/>
+        <path d="M15.6,165.17S157.28,227.12,185.8,24.55" style="fill: none; stroke: #d1cb50; stroke-linejoin: round; stroke-width: 2px;"/>
+      </g>
+      <path id="banana-top" d="M175.51,21.45s7.35,6.77,18.12.5c0,0,.3-20.86-10.55-19.92-10.09.87-7.56,19.42-7.56,19.42Z" style="fill: #885931; stroke: #754c29; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+      <path id="banana-bottom" d="M8.92,171.12c11.25-3.42,5.84-15.2,5.84-15.2,0,0-7.26-5.16-11.5,1.82-4.79,7.89,5.67,13.38,5.67,13.38Z" style="fill: #885931; stroke: #754c29; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4px;"/>
+    </g>
+  </g>
+</svg>
