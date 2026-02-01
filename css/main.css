@@ -1,10 +1,15 @@
 .icon-container{
     display: flex;
     justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(88, 38, 116);
+    margin: 10px;
+    transition: all .5s ease;
 }
 
 .icon-container:hover{
     cursor:pointer;
+    border-radius: 60px 0 0 0;
 }
 
 svg {
@@ -142,4 +147,38 @@ svg {
     animation: banana .5s ease;
     transform-origin: 100px 100px;
     animation-iteration-count: infinite;
+}
+
+#orbitz-logo{
+    fill:white;
+    justify-content: center;
+}
+
+.icon-container h2{
+    font-family: "acid-green", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1, p {
+    font-family: "Fredoka", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+header, footer{
+    background-color: rgb(58, 17, 145);
+    background-image: linear-gradient(to bottom, rgb(58, 17, 145), rgb(168, 45, 92));
+   color: rgb(255, 255, 255);
+   padding: 20px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom:10px;
+}
+
+span{
+    font-family: "acid-green", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 5px;
+    font-size:45px
 }
