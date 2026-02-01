@@ -1,6 +1,6 @@
 console.log("JavaScript file is connected!");
 
-const fruit = document.querySelectorAll("main svg");
+const fruit = document.querySelectorAll("svg");
 console.log(fruit);
 
 function logId(){

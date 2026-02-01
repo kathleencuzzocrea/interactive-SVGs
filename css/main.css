@@ -1,7 +1,6 @@
 .icon-container{
     display: flex;
     justify-content: center;
-    padding: 20px;
 }
 
 .icon-container:hover{
@@ -12,6 +11,7 @@ svg {
     transform-box: fill-box;
     transform-origin: center;
     transition: all .5s ease-in-out;
+    padding:20px;
 }
 
 @keyframes wiggle {
@@ -27,6 +27,119 @@ svg {
     animation-iteration-count: infinite;
 }
 
-#melon-rind:hover{
-    opacity:0%;
+@keyframes stem{
+    0%{transform: translateY(0px);}
+    50%{transform: translateY(-150px)}
+    100%{transform: translateY(0px);}
+}
+
+#strawberry:hover #strawberry-stem{
+    animation: stem 2s ease-in-out;
+}
+
+#strawberry:hover #strawberry-leaf{
+    animation: stem 2s ease-in-out;
+}
+
+#pineapple-body{
+    fill: rgb(247, 148, 29);
+}
+
+@keyframes colour{
+    0%{fill:rgb(247, 148, 29)}
+    20%{fill:rgb(138, 247, 29)}
+    40%{fill:rgb(29, 247, 196)}
+    60%{fill:rgb(247, 29, 116)}
+    80%{fill:rgb(247, 29, 29)}
+    100%{fill:rgb(247, 148, 29)}
+}
+
+#pineapple-main:hover #pineapple-body{
+    animation: colour 1s ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes raspberry{
+    0%{transform: translateY(0px);}
+    100%{transform: translateY(160px);}
+}
+
+#raspberry:hover #bottom-berry{
+    animation: raspberry 1s ease-in-out;
+    /* stop animation at 100% */
+    animation-fill-mode: forwards;
+}
+
+#raspberry:hover #low-right-berry{
+    animation: raspberry 1s ease-in-out;
+    animation-delay: 0.2s;
+    /* stop animation at 100% */
+    animation-fill-mode: forwards;
+}
+
+#raspberry:hover #low-left-berry{
+    animation: raspberry 1s ease-in-out;
+    animation-delay: 0.4s;
+    /* stop animation at 100% */
+    animation-fill-mode: forwards;
+}
+
+#raspberry:hover #mid-left-berry{
+    animation: raspberry 1s ease-in-out;
+    animation-delay: 0.6s;
+    /* stop animation at 100% */
+    animation-fill-mode: forwards;
+}
+
+#raspberry:hover #mid-right-berry{
+    animation: raspberry 1s ease-in-out;
+    animation-delay: 0.8s;
+    /* stop animation at 100% */
+    animation-fill-mode: forwards;
+}
+
+#raspberry:hover #middle-berry{
+    animation: raspberry 1s ease-in-out;
+    animation-delay: 1s;
+    /* stop animation at 100% */
+    animation-fill-mode: forwards;
+}
+
+#raspberry:hover #top-right-berry{
+    animation: raspberry 1s ease-in-out;
+    animation-delay: 1.2s;
+    /* stop animation at 100% */
+    animation-fill-mode: forwards;
+}
+
+#raspberry:hover #top-left-berry{
+    animation: raspberry 1s ease-in-out;
+    animation-delay: 1.4s;
+    /* stop animation at 100% */
+    animation-fill-mode: forwards;
+}
+
+#blueberry-stem , #stem-circle{
+    transform-origin: 100px 55px;
+    transition: all 1s ease;
+}
+
+#blueberry:hover #blueberry-stem{
+    transform:rotate(360deg);
+}
+
+#blueberry:hover #stem-circle{
+    transform:rotate(360deg);
+}
+
+@keyframes banana {
+    0%{transform:rotate(0deg);}
+    50%{transform:rotate(90deg);}
+    100%{transform: rotate(0deg);}
+}
+
+#banana:hover{
+    animation: banana .5s ease;
+    transform-origin: 100px 100px;
+    animation-iteration-count: infinite;
 }
